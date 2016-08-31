@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <!--cardCornerRadius设置圆角大小，app:cardElevation设置阴影大小，
+        最需要注意的属性是cardUseCompatPadding，
+        它在5.0以下的系统中默认是true,但在5.0系统中默认为false,
+        如果不设置 app:cardUseCompatPadding=”true”的话会造成在5.0系统的Android手机上不能看到阴影效果-->
+
+    <!--默认情况，CardView是不可点击的，并且没有任何的触摸反馈效果。-->
+    <!--触摸反馈动画在用户点击CardView时可以给用户以视觉上的反馈。为了实现这种行为，你必须提供一下属性-->
+    <!--使用android:foreground=”?android:attr/selectableItemBackground”-->
+    <!--如果你需要给自己的内容加上padding的话，需要使用新的属性：card_view:contentPadding-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="我就是一个Button，不用管我哈！！！"/>
+
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#0f0"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="24dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/dog"/>
+
+            <TextView
+                android:id="@+id/text_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="This is a card view"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <SeekBar
+        android:id="@+id/seek1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <SeekBar
+        android:id="@+id/seek2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

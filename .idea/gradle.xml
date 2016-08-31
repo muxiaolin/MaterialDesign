@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Toolbar与Palette实践" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/material_design_demo" />
+            <option value="$PROJECT_DIR$/navdrawer_demo_checkpoint0" />
+            <option value="$PROJECT_DIR$/navdrawer_demo_checkpoint1" />
+            <option value="$PROJECT_DIR$/navdrawer_demo_checkpoint2" />
+            <option value="$PROJECT_DIR$/navdrawer_demo_checkpoint3" />
+            <option value="$PROJECT_DIR$/recyclerview_cardview_demo" />
+            <option value="$PROJECT_DIR$/toolbar_demo_checkpoint0" />
+            <option value="$PROJECT_DIR$/toolbar_demo_checkpoint1" />
+            <option value="$PROJECT_DIR$/toolbar_demo_checkpoint2" />
+            <option value="$PROJECT_DIR$/toolbar_demo_checkpoint3" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Toolbar与Palette实践" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/material_design_demo" />
+            <option value="$PROJECT_DIR$/navdrawer_demo_checkpoint0" />
+            <option value="$PROJECT_DIR$/navdrawer_demo_checkpoint1" />
+            <option value="$PROJECT_DIR$/navdrawer_demo_checkpoint2" />
+            <option value="$PROJECT_DIR$/navdrawer_demo_checkpoint3" />
+            <option value="$PROJECT_DIR$/recyclerview_cardview_demo" />
+            <option value="$PROJECT_DIR$/toolbar_demo_checkpoint0" />
+            <option value="$PROJECT_DIR$/toolbar_demo_checkpoint1" />
+            <option value="$PROJECT_DIR$/toolbar_demo_checkpoint2" />
+            <option value="$PROJECT_DIR$/toolbar_demo_checkpoint3" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
